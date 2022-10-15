@@ -8,20 +8,16 @@
 
 .navegacao{
     position: fixed;
-    width: 400px;
+    width: 350px;
     height: 100%;
     background-color: #00aaff;
     transition: 0.5;
     overflow: hidden;
-    /*border-left: 10px solid #fff;*/
+    /*border-left: 10px solid #ff0000;*/
 }
 
 .icone{
-    width: 20%;
-}
-
-a{
-    text-decoration: none;
+    width: 10%;
 }
 
 .navegacao ul{
@@ -33,17 +29,33 @@ a{
 .navegacao ul li{
     width: 100%;
     position: relative;
+    box-sizing: border-box;
+    list-style: none;
+    margin-bottom: 40px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    box-sizing: border-box;
-    background-color: #fff;
-    list-style: none;
-    font-size: 195%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 1vw;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .navegacao ul li:nth-child(1){
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    pointer-events: none;
+}
+
+.navegacao ul li:hover{
+    background-color: #fff;
+    color: #00aaff;
+}
+
+.navegacao ul li a{
+    background-color: #00aaff;
+    font-size: 200%;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.navegacao ul li a:hover{
+    color: #00aaff;
 }
