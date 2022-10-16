@@ -201,7 +201,7 @@
 /*actual page*/
 .pagina{
     width: calc(100% - 300px);
-    height: 50vw;
+    height: 45vw;
     padding: 10px;
     margin: 0;
     background-color: #000;
@@ -211,18 +211,25 @@
 
 /*text colours*/
 .pagina a{
-    padding: 10px;
+    margin-bottom: 15px;
     color: #fff;
     text-decoration: none;
 }
 .pagina h1{
-    padding: 10px;
+    font-size: 6vw;
+    margin-bottom: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.pagina h2{
+    font-size: 2vw;
+    margin-bottom: 15px;
     color: #fff;
     text-decoration: none;
 }
 .pagina p{
-    padding: 10px;
-    color: #fff;
+    margin-bottom: 30px;
+    color: #666;
     text-decoration: none;
 }
 .pagina a:hover{
@@ -234,4 +241,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.img{
+    position: absolute;
+    float: left;
+    left: 0px;
+    width: 60%;
+
+}
+
+.gif{
+    position: relative;
+    float: left;
+    padding: 10px;
+    width: 60%;
 }
