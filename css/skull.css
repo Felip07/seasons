@@ -11,7 +11,7 @@
     position: fixed;
     width: 300px;
     height: 100%;
-    background-color: #00aaff;
+    background-color: darkorange;
     transition: 0.5s;
     overflow: hidden;
     /*border-left: 10px solid #ff0000;*/
@@ -72,7 +72,7 @@
 }
 
 .navegacao ul li a{
-    background-color: #00aaff;
+    background-color: darkorange;
     /*font-size: 2vw;*/
     /*font-size: 1.5em;*/
     font-size: 150%;
@@ -84,7 +84,7 @@
 }
 
 .navegacao ul li a:hover{
-    color: #00aaff;
+    color: darkorange;
 }
 
 /*round corner*/
@@ -131,7 +131,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    border-bottom: 2px solid #00aaff;
+    border-bottom: 2px solid darkorange;
 }
 
 .botaonavegacao{
@@ -152,7 +152,7 @@
 .paginaatual{
     width: 25%;
     text-align: center;
-    color: #00aaff;
+    color: darkorange;
 }
 
 /*searchbar*/
@@ -166,10 +166,10 @@
     justify-content: center;
     cursor: pointer;
     transition: 0.8s;
-    box-shadow: 2px 2px 3px 0 rgba(0, 170, 255, 0.3),
+    box-shadow: 2px 2px 3px 0 rgba(255, 150, 0.3),
     -2px -2px 3px 0 rgba(116, 125, 136, .2), 
     inset -2px -2px 3px 0 rgba(255,255,255,.2),
-    inset 2px 2px 3px 0 rgba(0, 50, 255, .2);
+    inset 2px 2px 3px 0 rgba(255, 075, .2);
 }
 
 .pesquisar:hover > .pesquisar-input{
@@ -196,4 +196,42 @@
 .pesquisar:hover img{
     width: 0px;
     opacity: 0;
+}
+
+/*actual page*/
+.pagina{
+    width: calc(100% - 300px);
+    height: 50vw;
+    padding: 10px;
+    margin: 0;
+    background-color: #000;
+    position: relative;
+    align-items: center;
+}
+
+/*text colours*/
+.pagina a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.pagina h1{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.pagina p{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.pagina a:hover{
+    text-decoration: underline;
+}
+
+.meiopagina{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
