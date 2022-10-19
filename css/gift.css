@@ -209,7 +209,7 @@
 }
 
 .fundo{
-    position: relative;
+    position: absolute;
     background-color: #fff;
     width: 100%;
     height: 100vh;
@@ -229,15 +229,36 @@
 .snowfall img{
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
 }
 
 .layout{
-    position: absolute;
-    width: 100vw;
+    position: relative;
+    width: 100%;
     height: 100vh;
     margin: 40px;
+    padding: 80px;
+    display: flex;
+    z-index: 99;
     background-color: #fff;
-=======
->>>>>>> ca52de28fd247f7418a6baaa58e310a9442e37e2
+    align-items: center;
+}
+
+.layouttexto{
+    float: left;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+
+.layout h1{
+    width: 100%;
+    font-size: 100px;
+}
+
+.layout img{
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    top: 0;
+    float: right;
 }
