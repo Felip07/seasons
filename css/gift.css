@@ -235,8 +235,8 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    margin: 40px;
-    padding: 80px;
+    margin: 30px;
+    padding: 40px;
     display: flex;
     z-index: 99;
     background-color: #fff;
@@ -247,18 +247,61 @@
     float: left;
     position: relative;
     text-align: center;
-    width: 50%;
+    padding: 20px;
+    top: 5vh;
+    width: 60%;
+    height: fit-content;
 }
 
 .layout h1{
     width: 100%;
     font-size: 100px;
+    color: #02BF31;
+    text-shadow: 6px 6px 6px #ccc;
+}
+
+.layout p{
+    padding-top: 20px;
+    text-shadow: 2px 2px 2px #ccc;
+    color: #EF072E;
 }
 
 .layout img{
     position: relative;
-    width: 50%;
-    height: 100vh;
-    top: 0;
+    width: 40%;
+    height: fit-content;
+    top: 5vh;
     float: right;
+    padding: 20px;
+}
+
+.botao{
+    text-align: center;
+    background-color: #EF072E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.layoutembaixo{
+    position: relative;
+    display: flex;
+    margin-top: 120px;
+    padding: 10px;
+}
+
+.layouticone{
+    width: 25%;
+    height: auto;
+    float: left;
+}
+
+.layouticone h3{
+    color: #EF072E;
+}
+
+.layouticone p{
+    color: #FF2244;
 }
